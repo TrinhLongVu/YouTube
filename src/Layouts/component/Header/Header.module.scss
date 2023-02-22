@@ -1,10 +1,17 @@
 .wrapper{
-    height: var(--hight-header);
-    padding: 0 16px;
+    position: fixed;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    height: var(--hight-header);
+    width: 100%;
+    background-color: var(--white-color);
+
+    padding: 0 16px;
     line-height: 0;
+    
 }
 
 .more{

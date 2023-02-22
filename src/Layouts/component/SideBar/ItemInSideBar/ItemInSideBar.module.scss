@@ -1,0 +1,28 @@
+.item{
+    display: flex;
+    align-items: center;
+    
+    padding: 0px 12px;
+    height: 40px;
+
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--black-hover);
+
+    &:hover{
+        cursor: pointer;
+        background-color: var(--hover-color);
+    }
+}
+
+.active{
+    background-color: var(--hover-color);
+}
+
+.icon{
+    padding-right: 24px;
+}
+
+.content{
+    font-size: 1.6rem;
+}

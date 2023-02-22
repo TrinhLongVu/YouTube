@@ -1,8 +1,12 @@
 .item {
     padding: 8px 16px;
+    font-size: 1.6rem;
+    
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
+
+    text-decoration: none;
+    
     &:hover{
         cursor: pointer;
         background-color: var(--hover-color);
@@ -11,4 +15,8 @@
 
 .icon{
     padding-right: 14px;
+}
+
+.content{
+    color: var(--black-color);
 }

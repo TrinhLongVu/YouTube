@@ -1,9 +1,21 @@
 .container{
     width: 240px;
+    padding: 0px 10px;
+    margin-top: var( --hight-header);
+    
+    max-height: 90vh;
+
+    overflow-y: auto;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    
+.blockItem{
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.content{
+    padding: 12px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #606060;
 }

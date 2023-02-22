@@ -1,5 +1,1 @@
-function ItemInSideBar() {
-    return ( <div></div> );
-}
-
-export default ItemInSideBar;
+export {default} from './ItemInSideBar'
