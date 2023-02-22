@@ -1,0 +1,19 @@
+.container{
+    height: 36px;
+    width: 125.88px;
+
+    background-color: var(--white-color);
+    margin: 8px;
+    border-radius: 50px;    
+
+    font-size: 1.6rem;
+    font-weight: 550;
+    color: #065fd4;
+
+    border: 1px solid var(--color-border);
+    &:hover {
+        cursor: pointer;
+        background-color: #def1ff;
+        border: none;
+    }
+}

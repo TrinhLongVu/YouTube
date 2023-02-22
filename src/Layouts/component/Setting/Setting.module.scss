@@ -1,0 +1,47 @@
+.setting{
+    position: relative;
+}
+
+.dataInSetting{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    width: 292px;
+    right: 0px;
+
+    padding: 8px 0px;
+  
+    border: 1px solid var(--color-border);
+    border-top: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 4px #eee;
+}
+
+.itemDataInSetting{
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+
+    font-size: 1.4rem;
+
+    .icon{
+        margin-right: 15px;
+    }
+
+    &:hover{
+        cursor: pointer;
+        background-color: var(--hover-color);
+    }
+}
+
+.buttonOpenSet{
+    padding: 5px;
+    font-size: 2.4rem;
+}
+
+.iconSet{
+    &:hover{
+        cursor: pointer;
+    }
+}
