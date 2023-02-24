@@ -1,11 +1,15 @@
 .container{
-    width: 240px;
     padding: 0px 10px;
     margin-top: var( --hight-header);
     
-    max-height: 90vh;
+    position: fixed;
+    width: 20%;
 
-    overflow-y: auto;
+    max-height: 90vh;
+    overflow: hidden;
+    &:hover{
+        overflow-y: auto;
+    }
 }
 
 .blockItem{
@@ -18,4 +22,15 @@
     font-size: 1.4rem;
     line-height: 2.4rem;
     color: #606060;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    line-height: 2.4rem;
+    padding: 12px;
+    font-size: 1.4rem;
+
 }

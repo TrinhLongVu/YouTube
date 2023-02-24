@@ -1,0 +1,35 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    
+    width: 25%;
+    padding: 20px 8px;
+    
+    text-decoration: none;
+    color: var(--black-color);
+    &:hover{
+        cursor: pointer;
+    }
+
+    .image{
+        width: 100%;
+        border-radius: 12px;
+    }
+}
+
+
+.container{
+    display: flex;
+    padding-top: 8px;
+    p{
+        font-size: 1.2rem;
+        color: #606060;
+    }
+}
+
+.content{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+

@@ -5,8 +5,13 @@
 
 .container{
     display: flex;
+    justify-content: space-between;
+}
+
+.sideBar{   
+    background-color: var(--white-color);
 }
 
 .content{
-
+    width: 80%;
 }

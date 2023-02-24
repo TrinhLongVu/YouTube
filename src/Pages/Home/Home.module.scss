@@ -1,3 +1,7 @@
 .container { 
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
+    margin: var(--hight-header) 16px;
+    
+    height: 85vh;
 }
